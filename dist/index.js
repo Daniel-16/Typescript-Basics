@@ -110,3 +110,11 @@ let strArray = getArray(["Daniel", "Toolz", "Karly"]);
 numArray.push(200);
 strArray.push("Temi");
 console.log(numArray, strArray);
+function greetUser(name) {
+    console.log("Welcome to ts", name);
+}
+greetUser("DannyToba");
+const userAge = (age) => {
+    return age;
+};
+console.log("User age is", userAge(19));

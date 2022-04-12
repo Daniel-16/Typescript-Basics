@@ -148,3 +148,14 @@ let strArray = getArray<string>(["Daniel", "Toolz", "Karly"])
 numArray.push(200);
 strArray.push("Temi")
 console.log(numArray, strArray);
+
+function greetUser(name:string):void {
+    console.log("Welcome to ts", name)
+}
+
+greetUser("DannyToba")
+
+const userAge = (age: number):number => {
+    return age
+}
+console.log("User age is", userAge(19))
